@@ -10,10 +10,4 @@ class Choice(models.Model):
   choice_text = models.CharField(max_length=200)
   votes = models.IntegerField(default=0)
 
-class ClassName(object):
-  """docstring for ClassName"""
-  def __init__(self, arg):
-    super(ClassName, self).__init__()
-    self.arg = arg
-
 
