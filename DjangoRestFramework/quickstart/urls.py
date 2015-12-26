@@ -4,9 +4,3 @@ from quickstart import views
 
 app_name = 'quickstart'
 
-
-
-urlpatterns = [
-
-
-]
